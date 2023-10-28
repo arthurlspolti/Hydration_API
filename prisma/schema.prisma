@@ -8,6 +8,7 @@ datasource db {
 }
 
 model Water {
-  id         Int      @id @default(autoincrement())
+  id         Int    @id @default(autoincrement())
+  user       String
   quantidade Float
 }
