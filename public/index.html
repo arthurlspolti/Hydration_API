@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,12 +9,17 @@
   <body>
     <div id="container">
       <h1>Hidratação</h1>
+      <p>
+        Para adicionar dados, insira usuario e a quantidade. Para acessar os
+        seus dados de usuário ou reseta-los, insira o seu usuário.
+      </p>
       <form id="form">
         <input type="text" name="user" id="user" placeholder="Usuário" />
         <input type="number" name="ml" id="ml" placeholder="Quantidade Ml" />
         <div>
           <input type="submit" value="Adicionar" />
           <button type="button" id="reset">Resetar</button>
+          <button type="button" id="show">Bebido hoje</button>
         </div>
       </form>
       <p id="result1"></p>
